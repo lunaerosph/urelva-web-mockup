@@ -65,7 +65,7 @@ i {
 }
 
 .navbar :where(#button-menu-close, #button-menu-open) {
-    display: none;
+    display: none !important;
 }
 
 .navbar .nav-logo .logo {
@@ -196,8 +196,7 @@ i {
     color: white;
     padding-bottom: 30px;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: center;    text-align: center;
 
 }
 
